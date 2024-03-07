@@ -52,24 +52,27 @@ button:hover{
     border: 2px solid white;
 }
   /*  main part */
-
-  /* part 1 */
-  .part1{
-    height: 400px;
-    background-image: url(planets.png);
+.ABOUT{
+   height: 400px;
+    background-image: url(milky-way-2695569_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+ 
+}
+  /* part 1 */
+  .part1{
+     height: 500px;
     display: flex;
     justify-content: center;
     align-items: end;
-    top: 400px;
   }
   .profile{
     height: 300px;
     width: 700px;
     display: flex;
-    background-color:yellow;
+    background-color:white;
+    box-shadow: 0px 0px  2px 2px lightblue;
     align-items: center;
     justify-content: space-evenly;
     
@@ -81,13 +84,36 @@ button:hover{
     background-size: cover;
     background-position: center;
 
- }
-  .prof-details{
-   background-color: aqua; 
-   
-   
   }
   .name{
-    width: 300px;
-
+    width: 100%;
+    text-align: center;
+    border-bottom:2px solid black ;
   }
+  .name p{
+    font-size: small;
+  }
+  .table, th, td {
+    /* border:1px solid black; */
+    padding: 10px 2px 10px 2px;
+    /* margin-bottom: 10px;
+    margin-top: 10px; */
+  }
+
+.DOw-RESUME{
+  height: 50px;
+  width: 10px;
+  font-size: small;
+  display: flex;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.DOw-RESUME button{
+
+   background-color: blue;
+   font-size: 1rem;
+}
+  
+
+
