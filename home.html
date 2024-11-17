@@ -59,8 +59,17 @@
             </div>
        </div>
        <div class="DOw-RESUME">
-        <button> DOWNLODE RESUME</button>
-      </div>
+        <button onclick="downloadResume()">DOWNLOAD RESUME</button>
+    </div>
+    
+
+<script>
+    function downloadResume() {
+        window.location.href = 'http://127.0.0.1:5000/download-resume'; // Backend endpoint
+    }
+</script>
+
+    
     </div>
    
 </body>
